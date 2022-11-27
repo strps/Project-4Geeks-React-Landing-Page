@@ -9,14 +9,21 @@ import Jumbotron from "./jumbotron.jsx";
 import Card from "./card.jsx"
 import Footer from "./footer.jsx";
 
-//create your first component
+//Placeholder information for the Card component
+const cardData = {
+	cardTitle : "Card Title",
+	cardText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores autem laborum, quam excepturi sequi voluptates impedit consequatur ex dolore totam sunt ipsum dolorum, doloremque laudantium qui a porro.",
+	imgURL : "https://via.placeholder.com/500x350"
+}
+
+//Home component - assembles the homapes structure with different react components
 const Home = () => {
 	return (
 		<div className="text-center">
 			<NavBar/>
 			<Container>
 				<Jumbotron/>
-				<Card></Card>
+				<Card data = {cardData}></Card>
 			</Container>
 			<Footer/>
 		</div>
