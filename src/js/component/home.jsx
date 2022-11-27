@@ -12,7 +12,7 @@ import Footer from "./footer.jsx";
 //Placeholder information for the Card component
 const cardData = {
 	cardTitle : "Card Title",
-	cardText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores autem laborum, quam excepturi sequi voluptates impedit consequatur ex dolore totam sunt ipsum dolorum, doloremque laudantium qui a porro.",
+	cardText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores autem laborum, quam excepturi.",
 	imgURL : "https://via.placeholder.com/500x350"
 }
 
