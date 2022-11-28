@@ -3,7 +3,7 @@ import React from "react";
 class NavBar extends React.Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
                 <div className="justify-content-between container-fluid" >
                     <a className="navbar-brand text-white" href="">Start Bootstrap</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toogler-div" aria-controls="toogler-div" aria-expanded="false" aria-label="Toggle navigation">

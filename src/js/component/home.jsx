@@ -11,21 +11,26 @@ import Footer from "./footer.jsx";
 
 //Placeholder information for the Card component
 const cardData = {
-	cardTitle : "Card Title",
-	cardText : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis maiores asperiores autem laborum, quam excepturi.",
-	imgURL : "https://via.placeholder.com/500x350"
+	cardTitle: "Card Title",
+	cardText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+	imgURL: "https://via.placeholder.com/500x350"
 }
 
 //Home component - assembles the homapes structure with different react components
 const Home = () => {
 	return (
-		<div className="text-center">
-			<NavBar/>
+		<div className="">
+			<NavBar />
 			<Container>
-				<Jumbotron/>
-				<Card data = {cardData}></Card>
+				<Jumbotron />
+				<div className="row">
+					<Card data={cardData}></Card>
+					<Card data={cardData}></Card>
+					<Card data={cardData}></Card>
+					<Card data={cardData}></Card>
+				</div>
 			</Container>
-			<Footer/>
+			<Footer />
 		</div>
 	);
 };

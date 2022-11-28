@@ -3,8 +3,8 @@ import React from "react";
 class Footer extends React.Component {
     render() {
         return (
-            <div>
-                <p>Copyright © Your Website 2022</p>
+            <div className="bg-dark py-5 text-white text-center">
+                <p className="my-0">Copyright © Your Website 2022</p>
             </div>
         )
     }
