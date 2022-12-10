@@ -23,7 +23,7 @@ const Home = () => {
 			<NavBar />
 			<Container>
 				<Jumbotron />
-				<div className="row">
+				<div className="row g-3">
 					<Card data={cardData}></Card>
 					<Card data={cardData}></Card>
 					<Card data={cardData}></Card>

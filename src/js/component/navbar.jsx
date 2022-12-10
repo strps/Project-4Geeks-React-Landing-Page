@@ -10,18 +10,18 @@ class NavBar extends React.Component {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="toogler-div">
-                        <ul class="navbar-nav me-1 ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Home</a>
+                        <ul className="navbar-nav me-1 ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">About</a>
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Services</a>
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#">Services</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#">Contact</a>
+                            <li className="nav-item">
+                                <a className="nav-link active" href="#">Contact</a>
                             </li>
                         </ul>
                     </div>
