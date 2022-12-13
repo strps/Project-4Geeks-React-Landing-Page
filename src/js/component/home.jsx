@@ -10,11 +10,23 @@ import Card from "./card.jsx"
 import Footer from "./footer.jsx";
 
 //Placeholder information for the Card component
-const cardData = {
+const cardData = [{
 	cardTitle: "Card Title",
 	cardText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
 	imgURL: "https://via.placeholder.com/500x350"
-}
+}, {
+	cardTitle: "Card Title",
+	cardText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+	imgURL: "https://via.placeholder.com/500x350"
+}, {
+	cardTitle: "Card Title",
+	cardText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+	imgURL: "https://via.placeholder.com/500x350"
+}, {
+	cardTitle: "Card Title",
+	cardText: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+	imgURL: "https://via.placeholder.com/500x350"
+}, ]
 
 //Home component - assembles the homapes structure with different react components
 const Home = () => {
@@ -24,10 +36,7 @@ const Home = () => {
 			<Container>
 				<Jumbotron />
 				<div className="row g-3">
-					<Card data={cardData}></Card>
-					<Card data={cardData}></Card>
-					<Card data={cardData}></Card>
-					<Card data={cardData}></Card>
+					{cardData.map((e) => <Card data={e}/>)}
 				</div>
 			</Container>
 			<Footer />
